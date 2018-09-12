@@ -1,0 +1,3 @@
+lane :test do
+  release_version
+end
