@@ -19,8 +19,6 @@ Metrics/BlockLength:
   Enabled: false
 Metrics/ModuleLength:
   Enabled: false
-Style/VariableNumber:
-  Enabled: false
 Style/MethodMissing:
   Enabled: false
 MultilineBlockChain:
@@ -113,8 +111,6 @@ Lint/UnusedMethodArgument:
 Lint/ParenthesesAsGroupedExpression:
   Exclude:
   - "**/spec/**/*"
-Style/PredicateName:
-  Enabled: false
 Style/PerlBackrefs:
   Enabled: false
 Layout/SpaceAroundOperators:
