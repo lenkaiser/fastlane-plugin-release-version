@@ -11,17 +11,12 @@ Gem::Specification.new do |spec|
   spec.email         = 'l.keijzer@24coms.com'
 
   spec.summary       = 'This plugin makes it possible to release an already approved version in AppStore Connect'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-release_version"
+  spec.homepage      = "https://github.com/lenkaiser/fastlane-plugin-release-version"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
-
-  # Don't add a dependency to fastlane or fastlane_re
-  # since this would cause a circular dependency
-
-  # spec.add_dependency 'your-dependency', '~> 1.0.0'
 
   spec.add_development_dependency('pry')
   spec.add_development_dependency('bundler')
